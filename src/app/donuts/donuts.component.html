@@ -1,0 +1,6 @@
+<p>DONUTS</p>
+<ul>
+    <li *ngFor="let d of rootObject?.results">
+        <app-donut-detail [donut]="d"></app-donut-detail>
+    </li>
+</ul>
